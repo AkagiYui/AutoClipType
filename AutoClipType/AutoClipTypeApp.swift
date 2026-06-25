@@ -1,6 +1,6 @@
 //
-//  ClipboardTyperApp.swift
-//  ClipboardTyper
+//  AutoClipTypeApp.swift
+//  AutoClipType
 //
 //  Created by alya on 11/6/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ClipboardTyperApp: App {
+struct AutoClipTypeApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     private let services = AppServices.shared
 

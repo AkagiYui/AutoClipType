@@ -9,7 +9,7 @@ final class AppServices {
     let notificationService = NotificationService()
     let hotKeyRegistrar = HotKeyRegistrar()
 
-    lazy var clipboardTyper = ClipboardTyper(
+    lazy var autoClipType = AutoClipType(
         settings: settingsStore,
         appState: appState,
         notificationService: notificationService
@@ -26,10 +26,10 @@ final class AppServices {
     }
 
     func handleHotKeyTrigger() {
-        if clipboardTyper.isTyping {
-            clipboardTyper.stopTyping()
+        if autoClipType.isTyping {
+            autoClipType.stopTyping()
         } else {
-            clipboardTyper.startTypingFromClipboard()
+            autoClipType.startTypingFromClipboard()
         }
     }
 }

@@ -12,24 +12,24 @@
 			containerPortal = 014E51322FDA99C700202223 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 014E51392FDA99C700202223;
-			remoteInfo = ClipboardTyper;
+			remoteInfo = AutoClipType;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014E513A2FDA99C700202223 /* ClipboardTyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardTyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		014E51502FDAAA0000202223 /* ClipboardTyperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardTyperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		014E513A2FDA99C700202223 /* AutoClipType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoClipType.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014E51502FDAAA0000202223 /* AutoClipTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoClipTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		014E513C2FDA99C700202223 /* ClipboardTyper */ = {
+		014E513C2FDA99C700202223 /* AutoClipType */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClipboardTyper;
+			path = AutoClipType;
 			sourceTree = "<group>";
 		};
-		014E51512FDAAA0000202223 /* ClipboardTyperTests */ = {
+		014E51512FDAAA0000202223 /* AutoClipTypeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClipboardTyperTests;
+			path = AutoClipTypeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,8 +55,8 @@
 		014E51312FDA99C700202223 = {
 			isa = PBXGroup;
 			children = (
-				014E513C2FDA99C700202223 /* ClipboardTyper */,
-				014E51512FDAAA0000202223 /* ClipboardTyperTests */,
+				014E513C2FDA99C700202223 /* AutoClipType */,
+				014E51512FDAAA0000202223 /* AutoClipTypeTests */,
 				014E513B2FDA99C700202223 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		014E513B2FDA99C700202223 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				014E513A2FDA99C700202223 /* ClipboardTyper.app */,
-				014E51502FDAAA0000202223 /* ClipboardTyperTests.xctest */,
+				014E513A2FDA99C700202223 /* AutoClipType.app */,
+				014E51502FDAAA0000202223 /* AutoClipTypeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		014E51392FDA99C700202223 /* ClipboardTyper */ = {
+		014E51392FDA99C700202223 /* AutoClipType */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 014E51472FDA99C800202223 /* Build configuration list for PBXNativeTarget "ClipboardTyper" */;
+			buildConfigurationList = 014E51472FDA99C800202223 /* Build configuration list for PBXNativeTarget "AutoClipType" */;
 			buildPhases = (
 				014E51362FDA99C700202223 /* Sources */,
 				014E51372FDA99C700202223 /* Frameworks */,
@@ -86,18 +86,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				014E513C2FDA99C700202223 /* ClipboardTyper */,
+				014E513C2FDA99C700202223 /* AutoClipType */,
 			);
-			name = ClipboardTyper;
+			name = AutoClipType;
 			packageProductDependencies = (
 			);
-			productName = ClipboardTyper;
-			productReference = 014E513A2FDA99C700202223 /* ClipboardTyper.app */;
+			productName = AutoClipType;
+			productReference = 014E513A2FDA99C700202223 /* AutoClipType.app */;
 			productType = "com.apple.product-type.application";
 		};
-		014E51532FDAAA0000202223 /* ClipboardTyperTests */ = {
+		014E51532FDAAA0000202223 /* AutoClipTypeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 014E51592FDAAA0000202223 /* Build configuration list for PBXNativeTarget "ClipboardTyperTests" */;
+			buildConfigurationList = 014E51592FDAAA0000202223 /* Build configuration list for PBXNativeTarget "AutoClipTypeTests" */;
 			buildPhases = (
 				014E51542FDAAA0000202223 /* Sources */,
 				014E51522FDAAA0000202223 /* Frameworks */,
@@ -109,13 +109,13 @@
 				014E51562FDAAA0000202223 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				014E51512FDAAA0000202223 /* ClipboardTyperTests */,
+				014E51512FDAAA0000202223 /* AutoClipTypeTests */,
 			);
-			name = ClipboardTyperTests;
+			name = AutoClipTypeTests;
 			packageProductDependencies = (
 			);
-			productName = ClipboardTyperTests;
-			productReference = 014E51502FDAAA0000202223 /* ClipboardTyperTests.xctest */;
+			productName = AutoClipTypeTests;
+			productReference = 014E51502FDAAA0000202223 /* AutoClipTypeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 014E51352FDA99C700202223 /* Build configuration list for PBXProject "ClipboardTyper" */;
+			buildConfigurationList = 014E51352FDA99C700202223 /* Build configuration list for PBXProject "AutoClipType" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,8 +151,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				014E51392FDA99C700202223 /* ClipboardTyper */,
-				014E51532FDAAA0000202223 /* ClipboardTyperTests */,
+				014E51392FDA99C700202223 /* AutoClipType */,
+				014E51532FDAAA0000202223 /* AutoClipTypeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +194,7 @@
 /* Begin PBXTargetDependency section */
 		014E51562FDAAA0000202223 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 014E51392FDA99C700202223 /* ClipboardTyper */;
+			target = 014E51392FDA99C700202223 /* AutoClipType */;
 			targetProxy = 014E51572FDAAA0000202223 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -321,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ClipboardTyper/ClipboardTyper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AutoClipType/AutoClipType.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4M56H5UB5R;
@@ -329,12 +329,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AutoClipType;
 				INFOPLIST_KEY_LSUIElement = YES;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.ClipboardTyper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.AutoClipType;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -354,7 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ClipboardTyper/ClipboardTyper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AutoClipType/AutoClipType.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4M56H5UB5R;
@@ -362,12 +363,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AutoClipType;
 				INFOPLIST_KEY_LSUIElement = YES;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.ClipboardTyper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.AutoClipType;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -398,14 +400,14 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.ClipboardTyperTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.AutoClipTypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardTyper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClipboardTyper";
-				TEST_TARGET_NAME = ClipboardTyper;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoClipType.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AutoClipType";
+				TEST_TARGET_NAME = AutoClipType;
 			};
 			name = Debug;
 		};
@@ -425,21 +427,21 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.ClipboardTyperTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akagiyui.AutoClipTypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 7;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardTyper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClipboardTyper";
-				TEST_TARGET_NAME = ClipboardTyper;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoClipType.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AutoClipType";
+				TEST_TARGET_NAME = AutoClipType;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		014E51352FDA99C700202223 /* Build configuration list for PBXProject "ClipboardTyper" */ = {
+		014E51352FDA99C700202223 /* Build configuration list for PBXProject "AutoClipType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				014E51452FDA99C800202223 /* Debug */,
@@ -448,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		014E51472FDA99C800202223 /* Build configuration list for PBXNativeTarget "ClipboardTyper" */ = {
+		014E51472FDA99C800202223 /* Build configuration list for PBXNativeTarget "AutoClipType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				014E51482FDA99C800202223 /* Debug */,
@@ -457,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		014E51592FDAAA0000202223 /* Build configuration list for PBXNativeTarget "ClipboardTyperTests" */ = {
+		014E51592FDAAA0000202223 /* Build configuration list for PBXNativeTarget "AutoClipTypeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				014E515A2FDAAA0000202223 /* Debug */,

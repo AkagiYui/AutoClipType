@@ -4,7 +4,7 @@ import CoreGraphics
 import Foundation
 
 @MainActor
-final class ClipboardTyper {
+final class AutoClipType {
     private let settings: SettingsStore
     private let appState: AppState
     private let notificationService: NotificationService

@@ -9,13 +9,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClipboardTyper menu"
+            "value" : "AutoClipType menu"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClipboardTyper 菜单"
+            "value" : "AutoClipType 菜单"
           }
         }
       }
@@ -463,13 +463,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClipboardTyper Settings"
+            "value" : "AutoClipType Settings"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ClipboardTyper 设置"
+            "value" : "AutoClipType 设置"
           }
         }
       }

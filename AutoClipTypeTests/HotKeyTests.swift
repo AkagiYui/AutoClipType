@@ -1,6 +1,6 @@
 import XCTest
 import Carbon
-@testable import ClipboardTyper
+@testable import AutoClipType
 
 final class HotKeyTests: XCTestCase {
     func testDefaultHotKeyIsControlOptionV() {

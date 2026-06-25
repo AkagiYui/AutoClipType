@@ -1,5 +1,5 @@
 import XCTest
-@testable import ClipboardTyper
+@testable import AutoClipType
 
 final class DelaySettingsRangeTests: XCTestCase {
     func testCharacterDelaySupportsZeroSeconds() {
