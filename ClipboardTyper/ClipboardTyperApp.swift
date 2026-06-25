@@ -6,27 +6,17 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct ClipboardTyperApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+    private let services = AppServices.shared
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            SettingsView()
+                .environment(\.settingsStore, services.settingsStore)
+                .environment(services.appState)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

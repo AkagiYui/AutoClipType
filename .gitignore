@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode user state
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Xcode build output
+DerivedData/
+build/
+Build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane and signing exports
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+*.mobileprovision
+*.provisionprofile
+
+# Editor and local environment
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+docs/
